@@ -2,9 +2,6 @@
   "name": "test-project",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "14.x"
-  },
   "scripts": {
     "dev": "concurrently \"npm run set-style\" \"npm run dev:all\"",
     "set-style": "node src/app/globals_light.css",
